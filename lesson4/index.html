@@ -1,12 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Intro Slider Animation</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-</body>
+  </head>
+  <body class="h-screen overflow-hidden">
+    <div id="app" class="w-full h-full">
+      <div class="relative w-full h-full flex items-center justify-center">
+        <div
+          class="item cursor-pointer w-1/3 shrink-0 overflow-hidden h-full flex items-center justify-center relative bg-[#86cbd2]"
+        >
+          <h1 class="text-[180px]">BLUE</h1>
+          <img
+            class="absolute w-[500px] shrink-0 -rotate-[40deg] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+            src="nike-blue.png"
+            alt=""
+          />
+        </div>
+
+        <div
+          class="item cursor-pointer w-1/3 shrink-0 overflow-hidden h-full flex items-center justify-center relative bg-[#c9c63e]"
+        >
+          <h1 class="text-[180px]">BLUE</h1>
+          <img
+            class="absolute w-[500px] shrink-0 -rotate-[40deg] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+            src="nike-yellow.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
